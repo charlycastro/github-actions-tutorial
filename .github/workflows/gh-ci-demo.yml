@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  mysite-ci:
+  mysite-ci-feat:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
